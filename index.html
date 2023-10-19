@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                background: linear-gradient(to left, #121212);
+            }
+            #topbar {
+                background-color: #292929;
+                height: 70px;
+                width: 1900px;
+                margin: -10px -10px;
+                display: flex;
+                align-items: center;
+            }
+            #search-bar {
+                margin-left: 20px;
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                outline: none;
+            }
+            #search-bar {
+                background-color: #0078d4;
+                color: #fff;
+                border: none;
+                border-radius: 30px;
+                padding: 15px 35px;
+                margin: 10px 800px;
+                cursor: type;
+                transition: 0.2s;
+            }
+            #search-bar:hover {
+                transform: scale(1.2);
+            }
+            #bar {
+                background-color: #292929;
+                height: 60px;
+                width: 60px;
+                margin: 0px -1825px;
+                border: none;
+                font-size: 35px;
+                transition: 0.3s;
+            }
+            #bar:hover {
+                cursor: pointer;
+                transform: scale(1.15);
+            }
+            #sidebar {
+                background-color: #333333;
+                height: 900px;
+                width: 130px;
+                margin: 10px -10px;
+            }
+            .sidebtn {
+                background-color: #333333;
+                border: none;
+                font-size: 25px;
+                height: 50px;
+                width: 100%; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
+                text-align: left;
+                font-weight: bold;
+                padding: 0 10px; 
+            }
+            .sidebtn i {
+                margin-right: 10px; 
+                font-size: 30px; 
+                color: #2e2e2e; 
+            }
+            .sidebtn:hover {
+                background-color: #404040;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="topbar">
+            <input type="text" id="search-bar" placeholder="Search">
+            <button id="bar"><i class="fa fa-bars"></i></button>
+        </div>
+        <div id="sidebar"> 
+            <button class="sidebtn"><i class="fa fa-home"></i> Home</button>
+        </div>
+    </body>
+</html>
